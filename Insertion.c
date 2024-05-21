@@ -29,7 +29,7 @@ int indinsertion(int size, int element, int index, int arr[], int capacity)
         arr[i + 1] = arr[i]; // Shift elements to the right
     }
     arr[index] = element; // Insert the element
-    return 1; // Indicate success
+    return 1;             // Indicate success
 }
 
 int main()
@@ -57,7 +57,6 @@ int main()
 
     return 0;
 }
-
 
 // void display(int arr[], int n)
 // {
